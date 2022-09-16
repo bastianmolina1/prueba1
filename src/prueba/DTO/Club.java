@@ -89,4 +89,13 @@ public class Club {
         this.Valor = Valor;
     }
     
+    public String ValidarRolUnico() {    
+        for (int i = 0; i < this.NombreClub.length(); i++) {            
+            if (this.NombreClub.charAt(i) == ' ') {                
+                System.out.println(" ");
+            }
+        }
+        return null;
+    }
 }
+              
